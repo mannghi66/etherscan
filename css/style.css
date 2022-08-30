@@ -280,4 +280,35 @@ footer .social li:not(:last-child) {
     #address .justify-content-lg-end {
         margin-top: 13px;
     }
+    #address .add {
+        max-width: 330px;
+    }
+    .minw-260 {
+        min-width: 260px;
+    }
+    .minw-240 {
+        min-width: 240px;
+    }
+    .minw-200 {
+        min-width: 200px;
+    }
+    .minw-150 {
+        min-width: 150px;
+    }
+    .minw-110 {
+        min-width: 110px;
+    }
+}
+@media (max-width: 390px) {
+    .m-0-xs {
+        margin: 0 !important;
+    }
+    .text-truncation-xs {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    #address .bg-white:first-child {
+        margin-bottom: 7px;
+    }
 }
